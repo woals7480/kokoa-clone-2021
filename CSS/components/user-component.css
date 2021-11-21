@@ -4,11 +4,20 @@
   align-items: center;
 }
 
+.user-component {
+  justify-content: space-between;
+}
+
 .user-component__avator {
   width: 70px;
   height: 70px;
   border-radius: 30px;
   margin-right: 20px;
+}
+
+.user-component__avator-xl {
+  width: 80px;
+  height: 80px;
 }
 
 .user-component__title {
@@ -20,4 +29,22 @@
   color: rgba(0, 0, 0, 0.5);
   font-size: 16px;
   margin-top: 8px;
+}
+
+.friends-screen {
+  padding: 0 var(--horizontal-space);
+}
+
+.user-component__avator-sm {
+  width: 60px;
+  height: 60px;
+  border-radius: 23px;
+}
+
+.user-component__title-notbold {
+  font-weight: normal;
+}
+
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
 }
