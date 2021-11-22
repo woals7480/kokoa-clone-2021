@@ -57,3 +57,12 @@
   display: block;
   margin-bottom: 10px;
 }
+
+.user-component__column:last-child .fa-comment-alt {
+  color: var(--font-color);
+}
+
+.user-component__column .fa-exclamation-circle {
+  color: rgba(0, 0, 0, 0.5);
+  margin: 0 5px;
+}

@@ -20,7 +20,7 @@
   position: relative;
 }
 
-.find__dot {
+.setting__dot {
   display: block;
   background-color: tomato;
   width: 5px;
